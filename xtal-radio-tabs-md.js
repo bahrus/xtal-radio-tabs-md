@@ -115,7 +115,9 @@ export class XtalRadioTabsMD extends XtalElement {
             slotchange: e => {
                 e.target
                     .assignedNodes()
-                    .forEach((node) => {
+                    .forEach(node => {
+                    if (node.nodeType !== 1)
+                        return;
                     if (node.localName === "datalist") {
                         const buttons = [];
                         const children = node.children;
