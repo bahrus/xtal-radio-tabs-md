@@ -1,0 +1,19 @@
+{
+  "name": "xtal-radio-tabs-md",
+  "version": "0.0.0",
+  "description": "TBD",
+  "main": "xtal-radio-tabs.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bahrus/xtal-radio-tabs-md.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bahrus/xtal-radio-tabs-md/issues"
+  },
+  "homepage": "https://github.com/bahrus/xtal-radio-tabs-md#readme"
+}
